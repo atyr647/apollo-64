@@ -1,2 +1,20 @@
+build/
+filesystem/
+apollo64.z64
+tools/bin2rope
+tools/trace_yaagc
+tests/host_smoke
+tests/dsky_decode_test
+tests/input_map_test
+tests/input_poll_test
+
+# yaYUL assembly outputs (regeneratable from .agc)
+agc-software/**/MAIN.agc.bin
+agc-software/**/MAIN.agc.symtab
+agc-software/**/MAIN.agc.lst
+
+# Upstream-leftover ignores
 yaYUL.exe
-node_modules
+core
+tests/selftest
+tests/equiv
